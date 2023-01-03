@@ -3823,32 +3823,33 @@ input, select, textarea {
 			}
 
 		#main > .posts {
-			display: -moz-flex;
+			/* display: -moz-flex; */
 			display: -webkit-flex;
-			display: -ms-flex;
-			display: flex;
-			-moz-flex-wrap: wrap;
-			-webkit-flex-wrap: wrap;
-			-ms-flex-wrap: wrap;
+			/* display: -ms-flex; */
+			/* display: flex; */
+			/* -moz-flex-wrap: wrap; */
+			/* -webkit-flex-wrap: wrap; */
+			/* -ms-flex-wrap: wrap; */
 			flex-wrap: wrap;
-			-moz-align-items: -moz-stretch;
+			/* -moz-align-items: -moz-stretch;
 			-webkit-align-items: -webkit-stretch;
-			-ms-align-items: -ms-stretch;
-			align-items: stretch;
-			text-align: center;
-			width: 100%;
+			-ms-align-items: -ms-stretch; */
+			/* align-items: stretch;
+			text-align: center; */
+			/* width: 100%; */
 			padding: 0;
 		}
 
 			#main > .posts > * {
-				-moz-flex-shrink: 1;
+				/* -moz-flex-shrink: 1;
 				-webkit-flex-shrink: 1;
 				-ms-flex-shrink: 1;
 				flex-shrink: 1;
 				-moz-flex-grow: 0;
 				-webkit-flex-grow: 0;
 				-ms-flex-grow: 0;
-				flex-grow: 0;
+				flex-grow: 0; */
+				flex:33%;
 			}
 
 			#main > .posts > * {
@@ -3856,15 +3857,15 @@ input, select, textarea {
 			}
 
 			#main > .posts > * {
-				padding: 4rem;
+				padding: 2rem;
 				width: 50%;
 			}
 
 			#main > .posts > article {
 				border-color: #eeeeee;
-				border-left-width: 2px;
+				border-left-width: 0px;
 				border-style: solid;
-				border-top-width: 2px;
+				border-top-width: 0px;
 				text-align: center;
 			}
 
@@ -3887,7 +3888,7 @@ input, select, textarea {
 				}
 
 				#main > .posts > * {
-					padding: 2.5rem;
+					padding: 0rem;
 					width: 50%;
 				}
 
