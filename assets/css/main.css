@@ -72,6 +72,14 @@ input, select, textarea {
 	appearance: none;
 }
 
+
+/* Article */
+.article-style {
+	border-right-width:2px; 
+	border-bottom-width:2px;
+	border-left-width:2px;
+}
+
 /* Basic */
 
 	@-ms-viewport {
